@@ -59,12 +59,12 @@ Don't worry. Even if you have little to no programming experience, we will get t
 We want to see and work together on your source code. We use the platform GitHub to share source code freely.
 
 ### Please do the following steps:
-- [ ] You [already own a Github-Account](https://github.com/login)  **or** you [create yourself a free GitHub-Account](https://github.com/join)
-- [ ] After signing in to GitHub.com:
-- [ ] Copy our source code to your GitHub-Account. Just [click here](https://github.com/muensmedia/testaufgabe/generate).
+- [x] You [already own a Github-Account](https://github.com/login)  **or** you [create yourself a free GitHub-Account](https://github.com/join)
+- [x] After signing in to GitHub.com:
+- [x] Copy our source code to your GitHub-Account. Just [click here](https://github.com/muensmedia/testaufgabe/generate).
   - **Please set the visibility of the new repository - as default - to 'Public'.**
-- [ ] Now scroll down the newly created GitHub repository until you see these instructions.
-- [ ] You continue from this point in the repository you have just created.
+- [x] Now scroll down the newly created GitHub repository until you see these instructions.
+- [x] You continue from this point in the repository you have just created.
 - [ ] First you need to press the big bright green button with the content "<> Code". After that click on "Codespaces".
 - [ ] Now there is another big bright green button in the center and when you click on it the magic happens.
 
