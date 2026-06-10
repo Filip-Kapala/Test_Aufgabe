@@ -51,7 +51,7 @@ We started creating a structogram for the Tic-tac-toe game, but your future trai
 
 *Please write down your solutions and include them in your email to us when completed.*
 
-![tic-tac-toe-structogram](./docs/tic-tac-toe-struktogramm.jpg)
+<img width="2480" height="3508" alt="Aufgabe1" src="https://github.com/user-attachments/assets/f0237f26-03d2-4a2b-9fd0-c12190480f2a" />
 
 ## 2.) Getting ready to code
 Now that you know how Tic-tac-toe works, we want to code it together.
