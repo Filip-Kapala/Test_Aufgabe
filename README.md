@@ -66,14 +66,14 @@ We want to see and work together on your source code. We use the platform GitHub
   - **Please set the visibility of the new repository - as default - to 'Public'.**
 - [x] Now scroll down the newly created GitHub repository until you see these instructions.
 - [x] You continue from this point in the repository you have just created.
-- [ ] First you need to press the big bright green button with the content "<> Code". After that click on "Codespaces".
-- [ ] Now there is another big bright green button in the center and when you click on it the magic happens.
+- [x] First you need to press the big bright green button with the content "<> Code". After that click on "Codespaces".
+- [x] Now there is another big bright green button in the center and when you click on it the magic happens.
 
 - The Github workspace should open itself.
 - Github Codespace opens, *this can take some minutes 😳. Please be patient. Maybe grab some snacks...*
 - There should be some text in the terminal saying "Running postStartCommand...". Don't worry about it. It will run as long as the Codespace is active. You know it's done loading as soon as you see a blue circle next to "PORTS" with a number in the center of it.
-- [ ] The instructions should open themself in a nice preview. If not, open the "README.md" file and then look for the window with a magnyfing glass looking symbol in the top right corner.
-- [ ] Continue with the instructions in your Github programming environment.
+- [x] The instructions should open themself in a nice preview. If not, open the "README.md" file and then look for the window with a magnyfing glass looking symbol in the top right corner.
+- [x] Continue with the instructions in your Github programming environment.
 
 ## 3.) Change copyright
 Your Tic-tac-toe webapp consists of a frontend and backend part.  
