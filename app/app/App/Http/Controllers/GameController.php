@@ -108,8 +108,66 @@ class GameController extends Controller
         // This function needs to return null if nobody has won yet - you can use someoneHasWon( $game ) for this.
         // If someone has won, it needs to return either GamePlayer::Human or GamePlayer::Robot.
         // =============================================================================================================
+        $lines = [
+            $game->getRow(0),
+            $game->getRow(1),
+            $game->getRow(2),
+            $game->getColumn(0),
+            $game->getColumn(1),
+            $game->getColumn(2),
+            $game->getMainDiagonal(0),
+            $game->getAntiDiagonal(0),
+        ];
 
-        return null;
+        if (
+            $lines[0]->getSpace(0) === $lines[0]->getSpace(1) &&
+            $lines[0]->getSpace(0) === $lines[0]->getSpace(2) &&
+            $lines[0]->getSpace(0) !== GameMark::None
+        ) return true;
+
+        if (
+            $lines[1]->getSpace(0) === $lines[1]->getSpace(1) &&
+            $lines[1]->getSpace(0) === $lines[1]->getSpace(2) &&
+            $lines[1]->getSpace(0) !== GameMark::None
+        ) return true;
+
+        if (
+            $lines[2]->getSpace(0) === $lines[2]->getSpace(1) &&
+            $lines[2]->getSpace(0) === $lines[2]->getSpace(2) &&
+            $lines[2]->getSpace(0) !== GameMark::None
+        ) return true;
+
+        if (
+            $lines[3]->getSpace(0) === $lines[3]->getSpace(1) &&
+            $lines[3]->getSpace(0) === $lines[3]->getSpace(2) &&
+            $lines[3]->getSpace(0) !== GameMark::None
+        ) return true;
+
+        if (
+            $lines[4]->getSpace(0) === $lines[4]->getSpace(1) &&
+            $lines[4]->getSpace(0) === $lines[4]->getSpace(2) &&
+            $lines[4]->getSpace(0) !== GameMark::None
+        ) return true;
+
+        if (
+            $lines[5]->getSpace(0) === $lines[5]->getSpace(1) &&
+            $lines[5]->getSpace(0) === $lines[5]->getSpace(2) &&
+            $lines[5]->getSpace(0) !== GameMark::None
+        ) return true;
+
+        if (
+            $lines[6]->getSpace(0) === $lines[6]->getSpace(1) &&
+            $lines[6]->getSpace(0) === $lines[6]->getSpace(2) &&
+            $lines[6]->getSpace(0) !== GameMark::None
+        ) return true;
+
+        if (
+            $lines[7]->getSpace(0) === $lines[7]->getSpace(1) &&
+            $lines[7]->getSpace(0) === $lines[7]->getSpace(2) &&
+            $lines[7]->getSpace(0) !== GameMark::None
+        ) return true;
+
+        return false;
     }
 
     /**
@@ -131,11 +189,15 @@ class GameController extends Controller
         // GamePlayer::Human (the last move was made by the player) or GamePlayer::None (this is the first move).
         // Inside of $player you have the player which wants to play now.
         // If he is allowed to play, you have to return true, otherwise you have to return false.
-        if ($game->getLastPlayer() == GamePlayer::Robot){
+        if ($game->getLastPlayer() == GamePlayer::None) {
             return true;
-        } else {
+        }
+        // GamePlayer::None existiert nicht. Ich bekomme den Fehler "Undefined constant Components\Enums\GamePlayer::None".
+        if ($game->getLastPlayer() == $player) {
             return false;
         }
+
+        return true;
     }
 
     /**
