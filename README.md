@@ -79,26 +79,26 @@ We want to see and work together on your source code. We use the platform GitHub
 Your Tic-tac-toe webapp consists of a frontend and backend part.  
 As frontend, we use a tool called `Swagger`, so we can try out APIs with a graphical interface.
 Swagger is already open, as you open Githubs programming environment.
-- [ ] To open Swagger click on "PORTS" you will find it in the terminal next to the text "Terminal".
-- [ ] Now you can see an open port called "Laravel (80)" next to the portname there is a link. Hover over it and click the browser icon.
+- [x] To open Swagger click on "PORTS" you will find it in the terminal next to the text "Terminal".
+- [x] Now you can see an open port called "Laravel (80)" next to the portname there is a link. Hover over it and click the browser icon.
 The page that opens up now is your web interface. Keep it open you will need it!
 As backend, we use a [PHP-App](https://www.php.net/manual/en/), based on the framework [Laravel](https://laravel.com/docs/9.x).  
 
 We have prepared a function that displays this game's copyright. ©️
 
 **Try this API method to display the game's copyright:**
-- [ ] In Swagger, click on `/copyright`.
-- [ ] Click on the button `Try it out`.
-- [ ] Send this request by clicking on `Execute`.
+- [x] In Swagger, click on `/copyright`.
+- [x] Click on the button `Try it out`.
+- [x] Send this request by clicking on `Execute`.
 - You can view the output with the current copyright at `Response body`.
 
 ✍🏼 **Change copyright:**  
-- [ ] Open file [app/app/App/Http/Controllers/CopyrightController.php](app/app/App/Http/Controllers/CopyrightController.php) in your Codespace.
-- [ ] You can find the copyright in a string format on line 18.
-- [ ] Use the ASCII generator linked in `CopyrightController.php` to create your personal copyright.
-- [ ] Replace our copyright `By MÜNSMEDIA GmbH` with your own copyright.
-- [ ] Try your new copyright with Swagger!
-- [ ] You need to save your changes, also named - **commit** (next section).
+- [x] Open file [app/app/App/Http/Controllers/CopyrightController.php](app/app/App/Http/Controllers/CopyrightController.php) in your Codespace.
+- [x] You can find the copyright in a string format on line 18.
+- [x] Use the ASCII generator linked in `CopyrightController.php` to create your personal copyright.
+- [x] Replace our copyright `By MÜNSMEDIA GmbH` with your own copyright.
+- [x] Try your new copyright with Swagger!
+- [x] You need to save your changes, also named - **commit** (next section).
 
 #### ✅ Create commit:
   - Click on the Tab `Source Control`. It looks like three points connected with lines on the left or you can press the keys <kbd>Strg</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd> together.
