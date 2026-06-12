@@ -16,11 +16,12 @@ class CopyrightController extends Controller
 
     // Generated with  https://patorjk.com/software/taag/
     public const COPYRIGHT = "
- ___       _   _  _ _  ___  _  _  __  _   _  ___  __  _   _     __          _ _
-| o )__   | \_/ || | || __|| \| |/ _|| \_/ || __||  \| | / \   / _|  _ _ ||| U |
-| o \\ V7 | \_/ || U || _| | \\ |\_ \| \_/ || _| | o ) || o | ( |_n|/ \ \|o\   |
-|___/ )/  |_| |_||___||___||_|\_||__/|_| |_||___||__/|_||_n_|  \__/L_n_n||_/_n_|
-     //
+______  _  _      _  _____
+|  ___|(_)| |    (_)|  __ \
+| |_    _ | |     _ | |__) |
+|  _|  | || |    | ||  ___/
+| |    | || |____| || |
+|_|    |_||______|_||_|
         ";
 
     static public function getCopyright(): string
